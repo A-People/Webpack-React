@@ -10,9 +10,9 @@ class About extends React.Component {
            <div className="story">
              <h3>个人信息</h3>
              <div className="desc">
-               web 开发者，在线教育狂热分子，很多朋友叫他“录视频的那个 Peter ”，自封“视频死磕侠” 。
+               A coder focusing on React + Express.
              </div>
-             <a href="https://github.com/happypeter">
+             <a href="https://github.com/goodthomas">
                <RaisedButton label="下载简历" primary={true} labelStyle={{fontSize: '16px'}}/>
              </a>
            </div>
@@ -23,13 +23,13 @@ class About extends React.Component {
              <h3>联系方式</h3>
              <ul>
                <li>
-                 <span>姓名：</span> Peter Wang
+                 <span>姓名：</span> Thomas Zhang
                </li>
                <li>
-                 <span>邮箱：</span> happypeter1983@gmail.com
+                 <span>邮箱：</span> xxx@xxx.com
                </li>
                <li>
-                 <span>微信：</span> happypeter1983
+                 <span>微信：</span> xxx
               </li>
              </ul>
            </div>

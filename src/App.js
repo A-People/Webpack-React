@@ -27,6 +27,7 @@ class App extends Component {
 
   getAppBar(){
     let title=this.context.router.isActive('/home')?'Home':
+      this.context.router.isActive('/blog')?'Blog':
       this.context.router.isActive('/account')?'Account':
       this.context.router.isActive('/about')?'About':''
     return(

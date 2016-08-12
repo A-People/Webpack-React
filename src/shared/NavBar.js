@@ -54,6 +54,7 @@ class NavBar extends React.Component {
           onChange={this.handleTabsChange.bind(this)}
           value={this.state.value}>
           <Tab style={styles.tab} value='/home' label='Home'></Tab>
+          <Tab style={styles.tab} value='/blog' label='Blog'></Tab>
           <Tab style={styles.tab} value='/account' label='Account'></Tab>
           <Tab style={styles.tab} value='/about' label='About'></Tab>
         </Tabs>

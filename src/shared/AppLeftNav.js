@@ -48,6 +48,9 @@ class AppLeftNav extends React.Component {
             value="/home"
             primaryText="Home" />
           <ListItem
+            value="/blog"
+            primaryText="Blog" />
+          <ListItem
             value="/account"
             primaryText="Account" />
           <ListItem
